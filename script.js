@@ -60,7 +60,7 @@ btnHold.addEventListener('click', function () {
     console.log(scores);
     document.querySelector(`#score--${activePlayer}`).textContent =
       scores[activePlayer];
-    if (currentScore < 20) {
+    if (currentScore < 100) {
       //switch to next player
       playerSwitch();
     } else {
